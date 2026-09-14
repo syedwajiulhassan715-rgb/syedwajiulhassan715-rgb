@@ -6,7 +6,7 @@
 
 **I build AI systems that reason over real workflows, automate useful work, and expose enough evidence to understand when they fail.**
 
-`Agentic AI` · `AI Engineering` · `VLA / Robotics` · `Applied ML` · `Automation`
+`Data Analysis` · `AI Engineering` · `VLA / Robotics` · `Applied ML` · `Agentic workflows`
 
 </div>
 
