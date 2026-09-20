@@ -2,7 +2,7 @@
 
 # Waji Ul Hassan Syed
 
-**I am exploring/Learning AI systems that reason over real workflows, automate useful work, and expose enough evidence to understand when they fail.**
+**I am exploring AI systems that reason over real workflows, automate useful work, and expose enough evidence to understand when they fail.**
 
 `AI Engineering` · `Agentic Workflows` · `Data Analysis` · `VLA / Robotics` · `Applied ML`
 
