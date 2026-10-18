@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="14" viewBox="0 0 1200 14" role="img" aria-label="">
+<defs>
+  <linearGradient id="base" x1="0" x2="1">
+    <stop offset="0" stop-color="#4F7CFF" stop-opacity="0"/><stop offset=".2" stop-color="#4F7CFF" stop-opacity=".55"/>
+    <stop offset=".5" stop-color="#2DD4BF" stop-opacity=".55"/><stop offset=".8" stop-color="#A78BFA" stop-opacity=".55"/>
+    <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="shine" x1="0" x2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset=".5" stop-color="#ffffff" stop-opacity=".95"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="g" x="-10%" y="-400%" width="120%" height="900%"><feGaussianBlur stdDeviation="2"/></filter>
+</defs>
+<rect y="6" width="1200" height="2" rx="1" fill="url(#base)"/>
+<g>
+  <rect y="5" width="180" height="4" rx="2" fill="url(#shine)" filter="url(#g)"/>
+  <rect y="6" width="180" height="2" rx="1" fill="url(#shine)"/>
+  <animateTransform attributeName="transform" type="translate" values="-200,0;1220,0" dur="4.5s" repeatCount="indefinite"/>
+</g>
+</svg>
