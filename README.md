@@ -177,18 +177,6 @@ When a patient cancels, the agent ranks the waitlist with explainable scores, ca
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
-## ✦ GitHub activity
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=syedwajiulhassan715-rgb&show_icons=true&hide_border=true&bg_color=00000000&title_color=4F7CFF&icon_color=4F7CFF&text_color=8b949e" alt="GitHub stats"/>
-  <img height="165" src="https://streak-stats.demolab.com?user=syedwajiulhassan715-rgb&hide_border=true&background=00000000&ring=4F7CFF&fire=2DD4BF&currStreakLabel=4F7CFF&sideLabels=8b949e&dates=8b949e&currStreakNum=8b949e&sideNums=8b949e&stroke=30363d" alt="GitHub streak"/>
-  <br/><br/>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/syedwajiulhassan715-rgb/syedwajiulhassan715-rgb/output/github-snake-dark.svg"/>
-    <img src="https://raw.githubusercontent.com/syedwajiulhassan715-rgb/syedwajiulhassan715-rgb/output/github-snake.svg" width="100%" alt="Contribution snake"/>
-  </picture>
-</div>
-
 ---
 
 <div align="center">
