@@ -1,15 +1,17 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Waji Ul Hassan Syed, AI Engineer, Senior at JKU Linz, Vienna"/>
+<img src="./assets/hero.svg" width="100%" alt="Waji Ul Hassan Syed, BSc AI at JKU Linz, Agentic AI and Evaluation, Vienna"/>
 
 <p>
   <a href="https://www.linkedin.com/in/waji-ul-hassan-syed-48832035a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:syedwajiulhassan715@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_touch-4F7CFF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://rental-law-navigator.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Locus-2DD4BF?style=for-the-badge&logo=vercel&logoColor=white" alt="Locus live demo"/></a>
-  <img src="https://komarev.com/ghpvc/?username=syedwajiulhassan715-rgb&style=for-the-badge&color=A78BFA&label=Profile+views" alt="Profile views"/>
 </p>
 
 <img src="./assets/terminal.svg" width="100%" alt="Terminal: whoami, focus, principles, shipped projects, and current work"/>
+
+🏆 **1st** Hack-Nation Global AI Hackathon, Linz hub &nbsp;·&nbsp; **1st** AIM Healthcare Hackathon Vienna, clinical documentation (IBM challenge)<br/>
+**Winner** proximata Vienna &nbsp;·&nbsp; **Talona track winner** Building Better Worlds Hackathon 2026
 
 </div>
 
@@ -21,20 +23,20 @@
 <tr>
 <td>
 
-<a href="https://rental-law-navigator.vercel.app">
-  <img src="https://raw.githubusercontent.com/syedwajiulhassan715-rgb/Locus/main/assets/screens/02-building-orbit-v2.jpg" width="100%" alt="Locus: 3D view of a Los Angeles building with the rules that apply to it"/>
+<a href="https://github.com/syedwajiulhassan715-rgb/vla-robustness-analysis">
+  <img src="https://raw.githubusercontent.com/syedwajiulhassan715-rgb/vla-robustness-analysis/main/figures/fig2_confident_failure.png" width="100%" alt="OpenVLA confident failure figure"/>
 </a>
 
-### 📍 Locus: Rental Housing Law Navigator
+### 🤖 VLA Robustness Analysis: does OpenVLA know when it is about to fail?
 
-**Pick any building and see which housing laws apply, each one traced to the exact sentence of law.**
-An LLM extracts rule records from statutes, and every quote is checked verbatim against the source before it is stored. Addresses resolve to their *legal* city, and each rule gets a three-valued result: when a fact is missing, Locus answers `unknown` instead of guessing.
+**1,200 LIBERO episodes under visual and language perturbations.**
+Success drops from **81% to 12%** when the instruction's referent is removed, yet mean action confidence stays near **0.78** in every condition and barely separates success from failure. The model fails confidently, so a runtime monitor watching that signal would see nothing wrong.
 
-`CA · NJ · MA` &nbsp; `EN / ES` &nbsp; `cited to the sentence` &nbsp; `no live LLM at answer time`
+`OpenVLA` `LIBERO` `robustness` `failure prediction` `research paper`
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white"/>
 
-**[▶ Live demo](https://rental-law-navigator.vercel.app)** &nbsp;·&nbsp; **[Repository](https://github.com/syedwajiulhassan715-rgb/Locus)** &nbsp;·&nbsp; <sub>Hack-Nation Global Hackathon · RealPage challenge</sub>
+**[Repository and paper](https://github.com/syedwajiulhassan715-rgb/vla-robustness-analysis)**
 
 </td>
 </tr>
@@ -62,18 +64,18 @@ Turns routine observations into replayable patient trajectories. It escalates on
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/syedwajiulhassan715-rgb/vla-robustness-analysis">
-  <img src="https://raw.githubusercontent.com/syedwajiulhassan715-rgb/vla-robustness-analysis/main/figures/fig2_confident_failure.png" width="100%" alt="OpenVLA confident failure figure"/>
+<a href="https://rental-law-navigator.vercel.app">
+  <img src="https://raw.githubusercontent.com/syedwajiulhassan715-rgb/Locus/main/assets/screens/02-building-orbit-v2.jpg" width="100%" alt="Locus: 3D view of a Los Angeles building with the rules that apply to it"/>
 </a>
 
-### 🤖 VLA Robustness Analysis
-**Does OpenVLA know when it is about to fail?**
+### 📍 Locus
+**Rental housing law, traced to the sentence**
 
-1,200 LIBERO episodes under visual and language perturbations. Success drops from **81% → 12%** when the instruction referent is removed, while action confidence stays at **~0.78**: the model fails confidently.
+Pick any building and see which housing laws apply. Every quote the LLM extracts is checked verbatim against the statute before it is stored, and a missing fact gives `unknown` instead of a guess. **[▶ Live demo](https://rental-law-navigator.vercel.app)**
 
-`OpenVLA` `LIBERO` `robustness` `research paper`
+`cited to the sentence` `CA · NJ · MA` `EN / ES` `no live LLM at answer time`
 
-<sub>Python · PyTorch · CUDA</sub>
+<sub>Python · FastAPI · TypeScript · Vercel &nbsp;|&nbsp; Hack-Nation · RealPage challenge</sub>
 
 </td>
 </tr>
@@ -89,7 +91,7 @@ Turns routine observations into replayable patient trajectories. It escalates on
 
 A standard p-chart misses a real 3× yield improvement (12.92% → 4.11%, p = 2×10⁻⁹) that a CUSUM catches. 16 of 17 "root causes" turn out to be a time confound, and the published prediction baseline fails an honest split.
 
-`87 tests` `23s deterministic pipeline` `decision log D1–D24`
+`423 tests` `CI` `decision log D1–D45` `live demo`
 
 <sub>Python · SciPy · Power BI star schema · UCI SECOM</sub>
 
@@ -165,12 +167,13 @@ When a patient cancels, the agent ranks the waitlist with explainable scores, ca
 
 </div>
 
-## ✦ Currently exploring
+## ✦ Currently
 
-- 🦾 Vision-Language-Action models and embodied AI
+- 🦾 Vision-Language-Action models and embodied AI, at JKU's Institute of Pervasive Computing and on the TU Wien Robotics Club VLA team
 - 🧾 Reliable, auditable AI agents
 - 📏 Evaluation methods for AI systems
 - 🔁 AI-native workflow automation
+- 💼 Open to AI/ML internships and working-student roles in Vienna / Austria
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
